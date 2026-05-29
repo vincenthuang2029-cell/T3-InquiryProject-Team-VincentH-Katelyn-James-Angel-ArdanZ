@@ -3,3 +3,18 @@
     margin:0;
     padding: 0;
 }
+
+.img1 {
+    width:5vw;
+    height:12vh;
+}
+
+.nav-and-header {
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.div1 {
+    flex-direction: row;
+}
