@@ -124,3 +124,10 @@ nav{
     align-items: flex-start;
     gap: 5vw;
 }
+
+.delivery{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5vh;
+    font-size: 2rem;
+    color:#6e4223;
+}
