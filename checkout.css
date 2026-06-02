@@ -3,3 +3,109 @@
     margin:0;
     padding: 0;
 }
+html {
+    background-color: #F2B572;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F0F272;
+}
+
+.nav {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1vw;
+}
+
+.nav_links{
+    border: solid #BF8E58 5px;
+    background-color: #FF9B26;
+    color: #944213;
+}
+.div_1 {
+    display:flex;
+    flex-direction: row;
+    gap:1vw;
+}
+
+.justify_content_heading {
+    display: flex;
+    width: 100vw;
+    height:30vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.justify_content_heading-1 {
+    width: 65%;
+    height:25%;
+    border: solid #FF9B26 5px;
+    text-align:center;
+    text-justify:center;
+    background-color: #FFD75C;
+    color: #FF9B26;
+    padding: 15px;
+}
+
+.justify_content_heading-2 {
+    width: 50%;
+    height:15%;
+    border: solid #FF9B26 4px;
+    text-align: center;
+    text-justify: center;
+    background-color: #FFD75C;
+    color: #FF9B26;
+}
+
+.items {
+    display: flex;
+    flex-direction:column;
+}
+
+.image1 {
+    width: 5vw;
+    height: 7vh;
+}
+
+.image_item {
+    width: 30vw;
+    height: 30vh;
+}
+
+.description {
+    display:flex;
+    flex-direction: row;
+    width:30vw;
+}
+
+.color{
+    color: #180a02dc;
+}
+
+.description_color {
+    border: solid #BF8E58 10px;
+    background-color: #FF9B26;
+    color: #944213;
+    height:100%;
+    width: 200px;
+}
+
+.item_options {
+    justify-content: space-around; /*code doesn't work, trying to make the button spaced apart*/
+    align-items: space-around; /*code doesn't work, trying to make the button spaced apart*/
+    border: solid #FF9B26 10px;
+    background-color: white;
+    width: 30vw;
+}
+
+.option {
+    padding: 20px;
+}
