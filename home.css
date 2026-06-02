@@ -3,7 +3,10 @@
     margin:0;
     padding: 0;
 }
-
+html {
+background: #fbf53f;
+background: radial-gradient(circle,rgba(251, 245, 63, 1) 0%, rgba(252, 158, 70, 1) 100%);
+}
 .img1 {
     width:5vw;
     height:7vh;
@@ -29,9 +32,22 @@
 
 .main {
     display: flex;
-    flex-direction: column;
-    width:40vw;
-    height:30vw;
+    flex-direction: row;
+    width:100vw;
+    height:60vw;
     margin-top: 5vh;
-    display: inline-block;
 }
+
+.img3 {
+    display:flex;
+    width:50%;
+    height:50%;
+}
+
+.img4 {
+    display:flex;
+    width:50%;
+    height:50%;
+}
+
+
