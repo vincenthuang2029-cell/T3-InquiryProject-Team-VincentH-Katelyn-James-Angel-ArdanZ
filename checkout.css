@@ -99,6 +99,7 @@ html {
 }
 
 .item_options {
+    display: flex;
     justify-content: space-around; /*code doesn't work, trying to make the button spaced apart*/
     align-items: space-around; /*code doesn't work, trying to make the button spaced apart*/
     border: solid #FF9B26 10px;
@@ -108,4 +109,8 @@ html {
 
 .option {
     padding: 20px;
+}
+
+.space {
+    margin: 20px;
 }
