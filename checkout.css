@@ -68,6 +68,7 @@ html {
 .items {
     display: flex;
     flex-direction:column;
+    flex: 1;
 }
 
 .image1 {
@@ -76,8 +77,8 @@ html {
 }
 
 .image_item {
-    width: 30vw;
-    height: 30vh;
+    width: 30%;
+    height: 150px;
 }
 
 .description {
@@ -95,16 +96,16 @@ html {
     background-color: #FF9B26;
     color: #944213;
     height:100%;
-    width: 200px;
+    width: 100%;
 }
 
 .item_options {
     display: flex;
-    justify-content: space-around; /*code doesn't work, trying to make the button spaced apart*/
-    align-items: space-around; /*code doesn't work, trying to make the button spaced apart*/
+    justify-content: space-around; 
+    align-items: space-around; 
     border: solid #FF9B26 10px;
     background-color: white;
-    width: 30vw;
+    width: 25%;
 }
 
 .option {
@@ -113,4 +114,76 @@ html {
 
 .space {
     margin: 20px;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30vw;
+    height: 70vh;
+    background-color: white;
+    padding: 20px;
+    border: #FF9B26 solid 10px;
+}
+
+.box1 {
+    display:flex;
+    justify-content: space-around;
+    gap: 140px;
+    flex-direction: row;
+}
+
+.box2 {
+    display:flex;
+    margin: 20px;
+    justify-content: space-around;
+    gap: 130px;
+    flex-direction: row;
+}
+
+.box3 {
+    display:flex;
+    justify-content: space-around;
+    gap: 140px;
+    flex-direction: row;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30vw;
+    height: 10vh;
+    background-color: white;
+    padding: 20px;
+    border: #FF9B26 solid 10px;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30vw;
+    height: 7vh;
+    background-color: white;
+    padding: 20px;
+    border: #FF9B26 solid 10px;
+}
+
+.column{
+    display:flex;
+    flex-direction: column;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 40px
 }
