@@ -7,14 +7,19 @@ body{
     background-color: lightgoldenrodyellow;
 }
 .logotext {
-    
 
 }
 
 .header{
     display:flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
-
+.div_1 {
+    display:flex;
+    flex-direction: row;
+    gap:1vw;
+}
 .navbar {
     display: 1;
     list-style-type: none;
