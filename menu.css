@@ -16,9 +16,21 @@ body{
 }
 
 .navbar {
+    display: 1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: 1;
+    height: 10%;
+    width: 40%;
 }
 
 .logopic {
     height: 50px;
     width: 50px;
+}
+
+.itemsimg {
+    height: 20vh;
+    width: 20vw;
 }
